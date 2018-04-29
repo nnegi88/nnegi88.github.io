@@ -1,0 +1,113 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.hr{
+    height: 10px;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    margin: 50px 0;
+}
+
+#description{
+    text-align: center;
+    font-size: 20px;
+}
+
+.accordion {
+    background: #333;
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    height: 200px;
+    font-size: 0;
+}
+
+.tab {
+    display: inline-block;
+    background-color: #444;
+    border-right: #333 1px solid;
+    width: 80px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+
+.tab:hover {
+    width: 450px;
+}
+
+.tab:hover .social a:before {
+    margin-left: -100px;
+}
+
+.tab:hover .social a:after {
+    margin-left: -5px;
+}
+
+.tab .content {
+    background: #fff;
+    width: 360px;
+    height: 200px;
+    margin-left: 80px;
+    padding: 50px 0 0 15px;
+    position: relative;
+}
+  
+.tab .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+  
+.tab .content p {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    padding-right: 30px;
+}
+  
+.social a:after,
+.social a:before {
+    transition: all 0.4s ease-in-out 0.1s;
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    text-indent: 0;
+    padding-top: 90px;
+    padding-left: 25px;
+    display: block;
+    font: normal 30px Genericons;
+    color: #fff;
+}
+  
+.social a:after {
+    font-size: 48px;
+    padding-left: 20px;
+    padding-top: 80px;
+    margin-left: 85px;
+}
+
+.youtube a:before,
+.youtube a:after {
+    font-family: "Font Awesome 5 Free";
+    content: '\f213';
+}
+
+.youtube a:after {
+    background-color: #ff0000;
+}
+
+.linkedin a:before,
+.linkedin a:after {
+    content: "\f167";
+}
+
+.linkedin a:after {
+    background-color: #006097;
+}
