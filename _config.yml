@@ -1,0 +1,33 @@
+title: Naveen Negi
+tagline: Engineering manager. Java/Spring Boot, production LLM pipelines on GCP.
+description: >-
+  Notes on shipping LLM features that survive production: evaluation,
+  regression gates, and the parts of the job nobody writes down.
+url: "https://nnegi88.github.io"
+baseurl: ""
+author:
+  name: Naveen Negi
+
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Kolkata
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: /feed.xml
+
+keep_files:
+  - case-closed
+  - demo
+  - css
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
